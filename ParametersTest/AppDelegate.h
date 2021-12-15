@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 @class ASObject;
+@class FirstClassObject;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

@@ -7,6 +7,7 @@
 
 #import "AppDelegate.h"
 #import "ASObject.h"
+#import "FirstClassObject.h"
 
 @interface AppDelegate ()
 
@@ -23,14 +24,22 @@
     [self.window makeKeyAndVisible];
     
     
-    
-    
     [self testObject];
-    
     
     NSLog(@"TEST IS OVER");
     
+    
+    
+    [self testFCobject];
+    
+    NSLog(@"TEST FirstClass IS OVER");
+    
+    
     return YES;
+}
+
+- (void) testFCobject {
+    FirstClassObject* FCobject = [[FirstClassObject alloc] init];
 }
 
 - (void) testObject {

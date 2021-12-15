@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652359E42769008A00EB4656 /* FirstClassObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 652359E32769008A00EB4656 /* FirstClassObject.m */; };
 		65FCE27D27673D0F00BD253F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FCE27C27673D0F00BD253F /* AppDelegate.m */; };
 		65FCE27F27673D0F00BD253F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FCE27E27673D0F00BD253F /* ContentView.swift */; };
 		65FCE28127673D1000BD253F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FCE28027673D1000BD253F /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		652359E22769008A00EB4656 /* FirstClassObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstClassObject.h; sourceTree = "<group>"; };
+		652359E32769008A00EB4656 /* FirstClassObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstClassObject.m; sourceTree = "<group>"; };
 		65FCE27827673D0F00BD253F /* ParametersTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParametersTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FCE27B27673D0F00BD253F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65FCE27C27673D0F00BD253F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +60,8 @@
 		65FCE27A27673D0F00BD253F /* ParametersTest */ = {
 			isa = PBXGroup;
 			children = (
+				652359E22769008A00EB4656 /* FirstClassObject.h */,
+				652359E32769008A00EB4656 /* FirstClassObject.m */,
 				65FCE28C27673D6D00BD253F /* ASObject.h */,
 				65FCE28D27673D6D00BD253F /* ASObject.m */,
 				65FCE27B27673D0F00BD253F /* AppDelegate.h */,
@@ -143,6 +148,7 @@
 				65FCE27F27673D0F00BD253F /* ContentView.swift in Sources */,
 				65FCE28627673D1000BD253F /* main.m in Sources */,
 				65FCE27D27673D0F00BD253F /* AppDelegate.m in Sources */,
+				652359E42769008A00EB4656 /* FirstClassObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
